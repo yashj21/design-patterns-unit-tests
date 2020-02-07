@@ -1,6 +1,5 @@
 pipeline {
    agent any
-   env.MY_BRANCH = '*/master'
     environment {
        MY_BRANCH = "*/master"
    }
