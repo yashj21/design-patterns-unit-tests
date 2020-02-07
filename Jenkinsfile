@@ -12,6 +12,7 @@ pipeline {
    stages {
       stage('Build') {
          steps {
+            bat('set')
             // Get some code from a GitHub repository
             git 'https://github.com/yashj21/design-patterns-unit-tests.git'
 
